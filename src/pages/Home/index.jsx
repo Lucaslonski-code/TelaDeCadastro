@@ -16,7 +16,7 @@ function Home() {
         <Container>
           <TopBackground>
           <img src={UsersImage} alt="imagem-usuarios"/>
-          <TopBackground/>
+          </TopBackground>
 
         <Title>Cadastrar Usuário</Title>
 
@@ -25,32 +25,32 @@ function Home() {
 
             <div>
                 <InputLabel>
-                Nome<span>*<span/>
-                <InputLabel/>
+                Nome<span>*</span>
+                </InputLabel>
                 <input type="text" placeholder="Nome do usuário" ref={inputName}/>
-            <div/>
+            </div>
 
             <div>
                 <InputLabel>
-                Idade<span>*<span/>
-                <InputLabel/>
+                Idade<span>*</span>
+                </InputLabel>
                 <input type="number" placeholder="Idade do usuário" ref={inputAge}/>
-            <div/>
+            </div>
 
-        <ContainerInputs/>
+        </ContainerInputs>
 
             <div style={{ width: '100%' }}>
                 <InputLabel>
-                Email<span>*<span/>
-                <InputLabel/>
+                Email<span>*</span>
+                </InputLabel>
                 <input type="text" placeholder="Email do usuário" ref={inputEmail}/>
-            <div/>
+            </div>
         
-        <Button>Cadastrar<Button/>
+        <Button>Cadastrar</Button>
 
-        <Form/>
+        </Form>
 
-        <Container/>  
+        </Container>  
     );
 }
 
